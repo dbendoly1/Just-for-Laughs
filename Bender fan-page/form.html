@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="form.css" rel="stylesheet" />
+</head>
+<body>
+  
+    <form>
+        <h2>Pledge your undying allegiance to Bender</h2>
+        <form action="/action_page.php">
+            <label for="firstName"class="fixedlabel">First Name: *</label>
+            <input id="firstName" name="firstName" type="text" required/>
+            <br /><br />
+
+            <label for="lastName"class="fixedlabel">Last Name:</label>
+            <input id="lastName" name="lastName" type="text" />
+            <br /><br />
+
+            <label for="email" class="fixedlabel">Email Address: *</label>
+            <input id="email" name="email" type="email" required/>
+            <br /><br />
+
+            <label for="card"class="fixedlabel">Credit Card:</label>
+            <input id="card" name="credit-number" type="tel" />
+            <br /><br />
+
+            <label for="DOB" class="fixedlabel">Date-of-Birth:</label>
+            <input id="DOB" name="DOB" type="date" />
+            <br /><br />
+
+            <label for="about">Why do you think Bender is so great?:</label><br />
+            <textarea id="about" name="about" rows="5" cols="60"></textarea>
+            <br /><br />
+
+            <label for="color" class="fixedlabel">Favorite Color:</label>
+            <input id="color" name="color" type="color" />
+            <br /><br />
+
+            <label for="number" class="fixedlabel">Favorite Number:</label>
+            <input id="number" name="number" type="number" />
+            <br /><br />
+            
+            <input type="submit" value="submit" class="submitbutton">
+        </form> 
+        
+        <nav>
+        <a href="index.html">Back to Home Page</a>
+    </nav>
+
+</body>
+</html>
